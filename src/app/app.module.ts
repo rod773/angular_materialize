@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
+import { FloatingActionButtonComponent } from './components/floating-action-button/floating-action-button.component';
 
 @NgModule({
-  declarations: [AppComponent, SidenavComponent, AutocompleteComponent],
+  declarations: [AppComponent, SidenavComponent, AutocompleteComponent, FloatingActionButtonComponent],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
